@@ -1,0 +1,10 @@
+<div class="header">
+  <div class="header__title">
+    <mat-icon class="icon">flight_land</mat-icon>
+    ABC Logistics
+  </div>
+
+  <button  *ngIf = "login" (click) = "signout()" [routerLink]="'/login'" mat-mini-fab class="signout">
+    <mat-icon>power_settings_new</mat-icon>
+  </button>
+</div> 

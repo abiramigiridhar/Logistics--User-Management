@@ -1,0 +1,18 @@
+
+
+@import '../../vars.scss';
+
+.login__container {
+  width: 60%;
+  margin: 10% auto;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px grey;
+  padding: 5%;
+  background-color:pink;
+
+  &-btn {
+    background-color:green;
+    border: none;
+  }
+ 
+}

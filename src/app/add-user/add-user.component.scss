@@ -1,0 +1,16 @@
+.user-container {
+  margin: 10% auto;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px grey;
+  padding: 10px;
+
+  .success{
+    background-color: green;
+    margin-right: 20px;
+    color: white;
+  }
+
+  .error {
+    color: red;
+  }
+}

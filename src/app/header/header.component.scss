@@ -1,0 +1,30 @@
+@import '../../vars.scss';
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: whitesmoke;
+  color: map-get($color-palette, flt-white);
+  display: flex;
+  justify-content: center;
+
+  &__title {
+    font-size: 3em;
+    font-weight: bold;
+    top: 40%;
+    position: relative;
+    text-align: center;
+    font-family: Arial;
+    color:black
+  }
+
+  .signout {
+  
+    top: 18px;
+    left:25%;
+
+    .mat-button-wrapper {
+      padding: 0;
+    }
+
+  }
+}

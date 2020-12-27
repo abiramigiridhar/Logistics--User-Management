@@ -1,0 +1,45 @@
+.home__container {
+  margin-top:20px;
+  .data-table {
+    width: 100%;
+  }
+  .delete {
+    background-color: tomato;
+    left: 32px
+    }
+
+  .edit {
+    background-color: goldenrod;
+    margin-left: 30px;
+  }
+
+  .no-admin {
+    position: relative;
+    margin: 0;
+  }
+
+  .icon {
+    color: white;
+  }
+
+  .no-data {
+    
+    background-image: url('./../../assets/images/provide.png');
+    background-size: 74% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 74%;
+    margin: 0 auto;
+    background-position: center;
+  }
+}
+
+.add {
+  border-radius: 0;
+  width: 5%;
+  padding: 0px;
+  color: white;
+  background-color: green;
+  margin-top: 20px;
+  left:1000px
+}

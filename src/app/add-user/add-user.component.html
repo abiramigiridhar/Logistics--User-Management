@@ -1,0 +1,41 @@
+<div class="col-md-6 user-container">
+  <h2 class=" ">Add User</h2>
+  <form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+      <h3 for="userName">User Name:</h3 >
+      <input required formControlName="userName" placeholder="User Name" name="userName" class="form-control" id="userName">
+    </div>
+
+    <div class="form-group">
+      <h3  for="firstName">First Name:</h3 >
+      <input required formControlName="firstName" placeholder="First Name" name="firstName" class="form-control" id="firstName">
+    </div>
+
+    <div class="form-group">
+      <h3  for="lastName">Last Name:</h3 >
+      <input required formControlName="lastName" placeholder="Last name" name="lastName" class="form-control" id="lastName">
+    </div>
+
+    <div class="form-group">
+      <h3  for="emailid">Mail ID:</h3 >
+      <input required type="email" formControlName="emailid" placeholder="emailid" name="emailid" class="form-control" id="emailid">
+    </div>
+
+    <div class="form-group">
+      <h3  for="salary">Salary:</h3 >
+      <input required type="number" formControlName="salary" placeholder="salary" name="salary" class="form-control" id="salary">
+    </div>
+
+    <p class="error" *ngIf="!addForm.valid"> *All fields are required</p>
+
+    <button mat-raised-button class="success">
+      Save
+    </button>
+
+    <button (click) = "onCancel()" mat-raised-button color="warn">
+      Cancel
+    </button>
+
+  </form>
+</div>
